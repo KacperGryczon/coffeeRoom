@@ -82,12 +82,12 @@ nav{
     font-size: 1.5rem;
     display: none;
     margin-top: 5px;
-    margin-right: 5px;
-}
+    
+};
 
 .closeSidebar:hover{
     cursor: pointer;
-}
+};
 
 .logo{
     width: 110px;
@@ -97,7 +97,7 @@ nav{
     border-radius: 50%;
     border: none;
     margin: 0;
-}
+};
 .logoLink{
     background-color: rgb(103, 90, 21);
 }
@@ -122,28 +122,39 @@ nav{
         margin-right: 0px;
         display: flex;
         align-items: start;
-    };
+        background-color: rgb(101, 98, 98);
+    }
 
     .navigation ul{
         width: 100%;
         display: flex;
         flex-direction: column;
-    };
+        background-color: rgb(101, 98, 98);
+    }
 
     .navigation ul .closeSidebar{
         padding-right: 0px;
         align-self: flex-end;
-    };
+    }
+
+    .navigation ul .closeSidebar:hover{
+        cursor: pointer;
+    }
 
     .navigation li{
-        background-color: black;
-    };
+        background-color: rgb(101, 98, 98);
+    }
 
     .navigation a{
         width: 100%;
         padding-left: 2.5rem;
         padding: 10px 0px;
-        background-color: black;
+        background-color: rgb(101, 98, 98);
+    }
+
+    .navigation ul li a{
+        background-color: rgb(101, 98, 98);
+        padding: 20px 0px;
     }
 }
 
