@@ -81,6 +81,8 @@ nav{
     border: none;
     font-size: 1.5rem;
     display: none;
+    margin-top: 5px;
+    margin-right: 5px;
 }
 
 .closeSidebar:hover{
@@ -118,21 +120,24 @@ nav{
     .navigation.show{
         right: 0;
         margin-right: 0px;
-    }
+        display: flex;
+        align-items: start;
+    };
 
     .navigation ul{
         width: 100%;
         display: flex;
         flex-direction: column;
-    }
+    };
 
     .navigation ul .closeSidebar{
         padding-right: 0px;
-    }
+        align-self: flex-end;
+    };
 
     .navigation li{
         background-color: black;
-    }
+    };
 
     .navigation a{
         width: 100%;
