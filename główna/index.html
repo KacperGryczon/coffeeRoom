@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Room</title>
+    <link rel="stylesheet" href="główna.css">
+    <script src="główna.js" defer></script>
+    <script src="https://kit.fontawesome.com/1017934682.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <a class="logoLink" href="/główna/index.html" ><img class="logo" src="/główna/images/coffeeRoomLogo.png" alt="coffeeRoomLogo"></a>
+        <button class="openSidebar" onclick="openSidebar()"><i class="fa-solid fa-bars fa-2xl"></i></button>
+        <div class="navigation">
+            <ul>
+                <button class="closeSidebar" onclick="closeSidebar()"><i class="fa-solid fa-xmark fa-2xl"></i></button>
+                <li><a class="oNasLink" href="/oNas/oNas.html">O nas</a></li>
+                <li><a class="menuLink" href="/menu/menu.html">Menu</a></li>
+                <li><a class="kontaktLink" href="/kontakt/kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="mainContainer"><img id="wypiekImg" src="/główna/images/wypiek1.png" alt=""><p>Domowe Wypieki</p></div>
+        <div class="mainContainer"><img id="napójImg" src="/główna/images/napój1.png" alt=""><p>Pyszne Napoje</p></div>
+        <div class="mainContainer"><img id="atmosferaImg" src="/główna/images/atmosfera1.png" alt=""><p>Przytulna Atmosfera</p></div>
+    </main>
+    <div class="mapsTitle">
+        <p>Tu nas znajdziesz</p>
+    </div>
+    <div class="mapsContainer">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2460.412528701802!2d22.37942711257836!3d51.926428571794496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4722017a837c763f%3A0x71a7e3aa3088de23!2sCoffee%20Room!5e0!3m2!1spl!2spl!4v1758139501490!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <footer>
+        <div class="footerContainer">
+            <h1>Coffee Room</h1>
+            <h4>Adres</h4>
+            <div id="adres">
+            <p>Browarna 23</p>
+            <p>lokal 3, 21-400 Łuków</p>
+            </div>
+        </div>
+        <div class="footerContainer">
+            <h1>Godziny otwarcia</h1>
+            <div id="godzina">
+                <h4>Poniedziałek - Piątek</h4>
+                <p>09:00  -  19:00</p>
+            </div>
+            <div id="godzina">
+                <h4>Sobota</h4>
+                <p>11:00 - 19:00</p>
+            </div>
+            <div id="godzina">
+                <h4>Niedziela</h4>
+                <p>12:30 - 19:00</p>
+            </div>
+        </div>
+        <div class="footerContainer">
+            <h1>Kontakt</h1>
+            <h4>Email</h4>
+            <p>sebaszymanek98@gmail.com</p>
+            <h4>Telefon</h4>
+            <p>605 567 703</p>
+            <h4>Nasze social media</h4>
+            <div id="socialMediaIcons">
+                <a target="_blank" href="https://www.facebook.com/p/Coffee-Room-Łuków-100056033330838/?locale=pl_PL"><i class="fa-brands fa-facebook fa-2xl" style="color: #000000;"></i></a>
+                <a target="_blank" href="https://www.instagram.com/coffee_room_lukow"><i class="fa-brands fa-instagram fa-2xl" style="color: #000000;"></i></a>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
